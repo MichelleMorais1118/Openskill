@@ -5,6 +5,7 @@ python -m venv venv
 venv/Script/Activate
 pip install django
 djago-admin startproject project . 
+python manage.py startapp contact
 
 ------------------------------------------------------
 
