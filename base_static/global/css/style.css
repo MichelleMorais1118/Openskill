@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    height: 100vh;
+    
+    background-image: url("/imagem/padell.jpg");
+    background-size: cover;
+    background-position: center;
+}
+header {
+    display: grid;
+    align-items:stretch;
+    height: 130px;
+}
+.container {
+    display: grid;
+    margin: auto;
+}
+#acesso {
+    color: rgb(107, 107, 107);
+    background-color: white;
+    border-color:rgb(200, 200, 200);
+    border-radius: 3px;
+    margin: 10px;
+    size: 50px;
+}
+
+.card {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 500px;
+}
+#log {
+    font-size: 30px;
+}
+#texto{
+    font-size: larger;
+}
+
+#logo {
+    margin-bottom: 1rem;
+    color: white;
+    margin-left: 30px;
+    background-blend-mode: darken;
+}
+
+#link{
+    color:black;
+    font-weight:bolder;
+    
+}
+
+
+#username {
+    background-color: rgb(233, 234, 234);
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+#password {
+    background-color: rgb(233, 234, 234);
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+#go {
+    background-color: rgb(213, 58, 2);
+    border-radius: 5px;
+    height: 50px;
+    width: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
