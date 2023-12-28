@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EC7100;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #EC7100;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.gridtotal {
+    display: flex;
+    padding: 10px;
+    margin-left: 30px;
+}
+.griditem {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#main {
+    background-color: #ffffff;
+    border-top-left-radius: 220px;
+    margin: 0px;
+    padding: 0px;
+    height: 700px;
+}
+
+#nomes {
+    background-color: #bfbfbf;
+}
+
+#placar {
+    background-color: #bfbfbf;
+}
+
+#submit {
+    background-color: #535395;
+}
+
+
+
+#blocos {
+    margin: 50px;
+    background-color: #eae9e9;
+    display: block;
+}
