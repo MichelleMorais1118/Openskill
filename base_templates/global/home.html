@@ -1,55 +1,31 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenSkill</title>
-    <link rel="stylesheet" href="base_static\global\css\stylesh.css">
+    <link rel="stylesheet" href="{% static 'global\css\style.css' %}">
 </head>
 <body>
-    <div id="cabecalho">
-        <header>
-            <h1>OpenSkill</h1>
-            <div class="gridtotal">
-                <h3 class="griditem">Histórico</h3>
-                <h3 class="griditem">Jogos</h3>
-                <h3 class="griditem">Clubes</h3>
-            </div>
-        </header>
+    <header>
+        <h1 id="logo">OpenSkill</h1>
+    </header>
+   <div class="card">
+    <div id="texto">
+        <h3>Quer saber qual o seu nível em Padel?</h3>
+        <p>Entre e descubra sua posição.</p>
     </div>
-    <div id="main">
-        <br>
-        <br>
-        <br>
-        <br>
-        <div id="blocos">
-        <div class="jogador">
-            <img src="/imagem/icon.png" alt="" id="icon">
-            <div>
-                <p>Apelido:</p>
-                <p>Posição:</p>
-            </div>
+    
+    <form id="signin-form">
+        <div class="container">
+            <button id="acesso">Cadastre-se com Google</button>
+            <button id="acesso">Cadastre-se com Facebook</button>
+            <p>Já possui cadastro? Faça log in</p>
+            <button>Continuar</button>
         </div>
-
-        <div class="top3">
-            <br>
-            <p>aaaaaa</p>
-        </div>
-
-        <div class="opcoes">
-            <div id="op">
-                <p>aaaaaa</p>
-            </div>
-            <div id="op">
-                <p>aaaaaa</p>
-            </div>
-            <div id="op">
-                <p>aaaaaa</p>
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <script src="script.js"></script>
+    <a href="#" id="link">Esqueci a senha</a>
+    <p>Já possui cadastro? <a href="/login.html" id="link">Faça log in</a></p>
+   </div>
 </body>
 </html>
